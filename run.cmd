@@ -1,5 +1,6 @@
 chcp 65001
 @echo off
+pushd %~dp0
 set tmp=%cd%
 icacls %cd% /inheritance:d /Q /C /deny everyone:(OI)(CI)(DE,DC)
 cls
